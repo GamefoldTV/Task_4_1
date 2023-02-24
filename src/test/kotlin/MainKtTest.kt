@@ -172,7 +172,7 @@ class MainKtTest {
 
     @Test
     fun convertToRubKop_Test() {
-        val amount = 104_53
+        val amount = 504_53
         val expectedResult = "104 руб 53 коп"
 
         val result = convertToRubKop(amount)
