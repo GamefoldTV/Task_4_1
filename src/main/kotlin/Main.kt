@@ -15,12 +15,12 @@ fun main() {
     val amountOfPreviousPurchases = 100_000_00
     val type = TYPE_1
 
-    println("*************************************");
+    println("**************************************");
     println("Сумма перевода: " + convertToRubKop(amountTransfer));
     println("Тип карты: $type");
     println("Сумма предыдущих переводов в этом месяце: " + convertToRubKop(amountOfPreviousPurchases));
     println("Комиссия: " + convertToRubKop(calcCommission(type, amountOfPreviousPurchases, amountTransfer)));
-    println("*************************************");
+    println("**************************************");
 }
 
 fun convertToRubKop(amount : Int) : String{
